@@ -1,0 +1,22 @@
+{
+    "name": "mef-theme",
+    "displayName": "Mef theme",
+    "description": "New VsCode Theme color",
+    "version": "0.0.1",
+    "publisher": "meftuncasenturk",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "meftuncasenturk",
+                "uiTheme": "vs-dark",
+                "path": "./themes/meftuncasenturk-color-theme.json"
+            }
+        ]
+    }
+}
